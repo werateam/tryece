@@ -1,0 +1,29 @@
+.card:hover
+{
+background-color: white;
+border: 0px solid #6C55F9;
+color:#6C55F9 !important;
+box-shadow: 0px 0px 7px 2px #222222 ;
+}
+.card
+{
+    color: white;
+    transition: background-color 1s ,border 1s,box-shadow 1s;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+.co{
+
+margin-left: -55px;
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+.co{
+
+    margin-left: -55px;
+
+}
+}
